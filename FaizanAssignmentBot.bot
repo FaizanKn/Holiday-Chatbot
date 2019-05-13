@@ -1,0 +1,24 @@
+{
+    "name": "HolidayBot",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "development",
+            "endpoint": "http://localhost:3978/api/messages",
+            "appId": "",
+            "appPassword": "",
+            "id": "1"
+        },
+        {
+            "type": "luis",
+            "name": "FaizanLuisApp",
+            "appId": "your app id here",
+            "version": "0.1",
+            "authoringKey": "your auth key here",
+            "subscriptionKey": "your subscription key here",
+            "region": "",
+        }
+    ],
+    "padlock": "",
+    "version": "2.0"
+}

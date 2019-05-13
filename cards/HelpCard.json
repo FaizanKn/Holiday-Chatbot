@@ -1,0 +1,208 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "spacing": "None",
+            "separator": true,
+            "columns": [
+                {
+                    "type": "Column",
+                    "spacing": "None",
+                    "separator": true,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Left",
+                            "spacing": "None",
+                            "separator": true,
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "text": "Leave Management Bot",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Left",
+                            "spacing": "None",
+                            "separator": true,
+                            "size": "Small",
+                            "weight": "Bolder",
+                            "text": "This bot helps you to view and manage your flexible and unplanned leaves. Some of quick commands you can type and their response is given below",
+                            "wrap": true
+                        }
+                    ],
+                    "width": 2
+                },
+                {
+                    "type": "Column",
+                    "spacing": "None",
+                    "separator": true,
+                    "items": [
+                        {
+                            "type": "Image",
+                            "spacing": "None",
+                            "separator": true,
+                            "url": "https://media.glassdoor.com/sqll/240077/nagarro-squarelogo-1530689887527.png"
+                        }
+                    ],
+                    "width": 1
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "spacing": "None",
+            "separator": true,
+            "columns": [
+                {
+                    "type": "Column",
+                    "spacing": "None",
+                    "separator": true,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "spacing": "None",
+                            "separator": true,
+                            "weight": "Bolder",
+                            "text": "List upcoming public holidays",
+                            "wrap": true
+                        }
+                    ],
+                    "width": 20
+                },
+                {
+                    "type": "Column",
+                    "spacing": "None",
+                    "separator": true,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "spacing": "None",
+                            "separator": true,
+                            "text": "“show upcoming holidays”\n\n“show upcoming holidays for March 2019” (show holidays for March)",
+                            "wrap": true
+                        }
+                    ],
+                    "width": 50
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "spacing": "None",
+            "separator": true,
+            "columns": [
+                {
+                    "type": "Column",
+                    "spacing": "None",
+                    "separator": true,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "spacing": "None",
+                            "separator": true,
+                            "weight": "Bolder",
+                            "text": "List upcoming flexible holidays and options to avail the same",
+                            "wrap": true
+                        }
+                    ],
+                    "width": 20
+                },
+                {
+                    "type": "Column",
+                    "spacing": "None",
+                    "separator": true,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "spacing": "None",
+                            "separator": true,
+                            "text": "“show upcoming flexible holidays”,\n\n“show upcoming flexible holidays for April” (show for April)",
+                            "wrap": true
+                        }
+                    ],
+                    "width": 50
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "spacing": "None",
+            "separator": true,
+            "columns": [
+                {
+                    "type": "Column",
+                    "spacing": "None",
+                    "separator": true,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "spacing": "None",
+                            "separator": true,
+                            "weight": "Bolder",
+                            "text": "Submit a leave request",
+                            "wrap": true
+                        }
+                    ],
+                    "width": 20
+                },
+                {
+                    "type": "Column",
+                    "spacing": "None",
+                    "separator": true,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "spacing": "None",
+                            "separator": true,
+                            "text": "“I want to take a leave “,\n\n“I will be on leave on 2nd week of May”,\n\n“Apply for a leave on 22nd March”",
+                            "wrap": true
+                        }
+                    ],
+                    "width": 50
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "spacing": "None",
+            "separator": true,
+            "columns": [
+                {
+                    "type": "Column",
+                    "spacing": "None",
+                    "separator": true,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "spacing": "None",
+                            "separator": true,
+                            "weight": "Bolder",
+                            "text": "View submitted requests - Flexible holidays - Leaves",
+                            "wrap": true
+                        }
+                    ],
+                    "width": 20
+                },
+                {
+                    "type": "Column",
+                    "spacing": "None",
+                    "separator": true,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "spacing": "None",
+                            "separator": true,
+                            "text": "“Show me my upcoming flexible holidays”,\n\n“Details of leave I have applied for”,\n\n“Show my opted flexible holidays for the month of March”,\n\n“Show my upcoming submitted requests”",
+                            "wrap": true
+                        }
+                    ],
+                    "width": 50
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}

@@ -1,0 +1,75 @@
+{
+    "type": "ColumnSet",
+    "horizontalAlignment": "Center",
+    "spacing": "None",
+    "columns": [
+        {
+            "type": "Column",
+            "spacing": "None",
+            "separator": true,                    
+            "verticalContentAlignment": "Center",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "horizontalAlignment": "Center",
+                    "separator": true,
+                    "size": "Small",
+                    "weight": "Bolder",
+                    "text": "Day"
+                }
+            ],
+            "width": 20
+        },
+        {
+            "type": "Column",
+            "spacing": "None",
+            "separator": true,                    
+            "verticalContentAlignment": "Center",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "horizontalAlignment": "Center",
+                    "separator": true,
+                    "size": "Small",
+                    "weight": "Bolder",
+                    "text": "Date"
+                }
+            ],
+            "width": 20
+        },
+        {
+            "type": "Column",
+            "spacing": "None",
+            "separator": true,                    
+            "verticalContentAlignment": "Center",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "horizontalAlignment": "Center",
+                    "separator": true,
+                    "size": "Small",
+                    "weight": "Bolder",
+                    "text": "Holiday"
+                }
+            ],
+            "width": 30
+        },
+        {
+            "type": "Column",
+            "spacing": "None",
+            "separator": true,                    
+            "verticalContentAlignment": "Center",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "horizontalAlignment": "Center",
+                    "separator": true,
+                    "size": "Small",
+                    "weight": "Bolder",
+                    "text": "Fixed/Flexible"
+                }
+            ],
+            "width": 20
+        }
+    ]
+}

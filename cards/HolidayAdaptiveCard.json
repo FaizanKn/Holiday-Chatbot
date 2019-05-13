@@ -1,0 +1,116 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "horizontalAlignment": "Center",
+            "spacing": "None",
+            "columns": [
+                {
+                    "type": "Column",
+                    "horizontalAlignment": "Center",
+                    "spacing": "None",
+                    "separator": true,
+                    "backgroundImage": "https://i.imgur.com/VqPwuWR.png",
+                    "verticalContentAlignment": "Center",
+                    "items": [
+                        {
+                            "type": "TextBlock",                            
+                            "horizontalAlignment": "Center",
+                            "spacing": "None",
+                            "separator": true,
+                            "size": "Small",
+                            "weight": "Bolder",
+                            "color": "Light",
+                            "text": "Holiday Calender 2019",
+                            "wrap": true
+                        }
+                    ],
+                    "width": "stretch"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "horizontalAlignment": "Center",
+            "spacing": "None",
+            "columns": [
+                {
+                    "type": "Column",
+                    "spacing": "None",
+                    "separator": true,       
+                    "backgroundImage": "https://i.pinimg.com/originals/0b/fe/d8/0bfed81c67946680a396274b20ef6c1c.jpg",             
+                    "verticalContentAlignment": "Center",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "separator": true,
+                            "size": "Small",
+                            "weight": "Bolder",
+                            "text": "Day"
+                        }
+                    ],
+                    "width": 20
+                },
+                {
+                    "type": "Column",
+                    "spacing": "None",
+                    "separator": true,                   
+                    "backgroundImage": "https://i.pinimg.com/originals/0b/fe/d8/0bfed81c67946680a396274b20ef6c1c.jpg", 
+                    "verticalContentAlignment": "Center",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "separator": true,
+                            "size": "Small",
+                            "weight": "Bolder",
+                            "text": "Date"
+                        }
+                    ],
+                    "width": 20
+                },
+                {
+                    "type": "Column",
+                    "spacing": "None",
+                    "separator": true,        
+                    "backgroundImage": "https://i.pinimg.com/originals/0b/fe/d8/0bfed81c67946680a396274b20ef6c1c.jpg",            
+                    "verticalContentAlignment": "Center",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "separator": true,
+                            "size": "Small",
+                            "weight": "Bolder",
+                            "text": "Holiday"
+                        }
+                    ],
+                    "width": 30
+                },
+                {
+                    "type": "Column",
+                    "spacing": "None",
+                    "separator": true,    
+                    "backgroundImage": "https://i.pinimg.com/originals/0b/fe/d8/0bfed81c67946680a396274b20ef6c1c.jpg",                
+                    "verticalContentAlignment": "Center",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "separator": true,
+                            "size": "Small",
+                            "weight": "Bolder",
+                            "text": "Fixed/Flexible"
+                        }
+                    ],
+                    "width": 20
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0",
+    "speak": "<s>This is the holiday calender for 2019</s>"
+}

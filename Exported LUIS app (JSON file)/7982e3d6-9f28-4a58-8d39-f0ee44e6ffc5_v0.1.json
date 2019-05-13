@@ -1,0 +1,429 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "0.1",
+  "name": "holiday",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "Cancel"
+    },
+    {
+      "name": "Greeting"
+    },
+    {
+      "name": "Help"
+    },
+    {
+      "name": "LeaveRequest"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "ShowAllFlexiHolidays"
+    },
+    {
+      "name": "ShowAllHolidays"
+    },
+    {
+      "name": "ShowMyFlexiLeaves"
+    },
+    {
+      "name": "ShowMyLeaves"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [
+    {
+      "name": "datetimeV2",
+      "roles": []
+    }
+  ],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "abort",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "all upcoming holidays for march",
+      "intent": "ShowAllHolidays",
+      "entities": []
+    },
+    {
+      "text": "all upcoming holidays list",
+      "intent": "ShowAllHolidays",
+      "entities": []
+    },
+    {
+      "text": "apply for a leave on march",
+      "intent": "LeaveRequest",
+      "entities": []
+    },
+    {
+      "text": "cancel",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "details of flexible leaves i have applied for",
+      "intent": "ShowMyFlexiLeaves",
+      "entities": []
+    },
+    {
+      "text": "details of leave i have applied for",
+      "intent": "ShowMyLeaves",
+      "entities": []
+    },
+    {
+      "text": "details of my opted leaves",
+      "intent": "ShowMyLeaves",
+      "entities": []
+    },
+    {
+      "text": "details of my opted leaves for march",
+      "intent": "ShowMyLeaves",
+      "entities": []
+    },
+    {
+      "text": "end",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "help",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "hey",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hi bot",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "i am on leave from march to march",
+      "intent": "LeaveRequest",
+      "entities": []
+    },
+    {
+      "text": "i am on leave on march",
+      "intent": "LeaveRequest",
+      "entities": []
+    },
+    {
+      "text": "i want to take a leave",
+      "intent": "LeaveRequest",
+      "entities": []
+    },
+    {
+      "text": "i want to take a leave for march",
+      "intent": "LeaveRequest",
+      "entities": []
+    },
+    {
+      "text": "i want to take a leave on march",
+      "intent": "LeaveRequest",
+      "entities": []
+    },
+    {
+      "text": "i will be on leave on march",
+      "intent": "LeaveRequest",
+      "entities": []
+    },
+    {
+      "text": "i will on leave on march",
+      "intent": "LeaveRequest",
+      "entities": []
+    },
+    {
+      "text": "leave apply for march",
+      "intent": "LeaveRequest",
+      "entities": []
+    },
+    {
+      "text": "leave request for march",
+      "intent": "LeaveRequest",
+      "entities": []
+    },
+    {
+      "text": "leave request from march to march",
+      "intent": "LeaveRequest",
+      "entities": []
+    },
+    {
+      "text": "leave request on march",
+      "intent": "LeaveRequest",
+      "entities": []
+    },
+    {
+      "text": "march flexi holidays",
+      "intent": "ShowAllFlexiHolidays",
+      "entities": []
+    },
+    {
+      "text": "march flexible holidays",
+      "intent": "ShowAllFlexiHolidays",
+      "entities": []
+    },
+    {
+      "text": "march upcoming flexi holidays",
+      "intent": "ShowAllFlexiHolidays",
+      "entities": []
+    },
+    {
+      "text": "march upcoming flexible holidays",
+      "intent": "ShowAllFlexiHolidays",
+      "entities": []
+    },
+    {
+      "text": "my leave request submitted for march",
+      "intent": "ShowMyLeaves",
+      "entities": []
+    },
+    {
+      "text": "my opted flexible leaves details",
+      "intent": "ShowMyFlexiLeaves",
+      "entities": []
+    },
+    {
+      "text": "my submitted flexible leave requests for march",
+      "intent": "ShowMyFlexiLeaves",
+      "entities": []
+    },
+    {
+      "text": "my submitted leave request",
+      "intent": "ShowMyLeaves",
+      "entities": []
+    },
+    {
+      "text": "quit",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "show details of all leave i have applied for march",
+      "intent": "ShowMyLeaves",
+      "entities": []
+    },
+    {
+      "text": "show flexi holidays",
+      "intent": "ShowAllFlexiHolidays",
+      "entities": []
+    },
+    {
+      "text": "show flexi holidays for march",
+      "intent": "ShowAllFlexiHolidays",
+      "entities": []
+    },
+    {
+      "text": "show flexible holidays",
+      "intent": "ShowAllFlexiHolidays",
+      "entities": []
+    },
+    {
+      "text": "show flexible holidays for march",
+      "intent": "ShowAllFlexiHolidays",
+      "entities": []
+    },
+    {
+      "text": "show march flexi holidays list",
+      "intent": "ShowAllFlexiHolidays",
+      "entities": []
+    },
+    {
+      "text": "show march flexible holidays list",
+      "intent": "ShowAllFlexiHolidays",
+      "entities": []
+    },
+    {
+      "text": "show me details of flexible leaves i have applied for",
+      "intent": "ShowMyFlexiLeaves",
+      "entities": []
+    },
+    {
+      "text": "show me details of flexible leaves i have applied in march",
+      "intent": "ShowMyFlexiLeaves",
+      "entities": []
+    },
+    {
+      "text": "show me leave request submitted for march",
+      "intent": "ShowMyLeaves",
+      "entities": []
+    },
+    {
+      "text": "show me leaves i have applied for",
+      "intent": "ShowMyLeaves",
+      "entities": []
+    },
+    {
+      "text": "show me my opted flexible leaves",
+      "intent": "ShowMyFlexiLeaves",
+      "entities": []
+    },
+    {
+      "text": "show me my opted leaves",
+      "intent": "ShowMyLeaves",
+      "entities": []
+    },
+    {
+      "text": "show me my submitted leave request",
+      "intent": "ShowMyLeaves",
+      "entities": []
+    },
+    {
+      "text": "show me my upcoming flexible holidays",
+      "intent": "ShowMyFlexiLeaves",
+      "entities": []
+    },
+    {
+      "text": "show me my upcoming flexible request for march",
+      "intent": "ShowMyFlexiLeaves",
+      "entities": []
+    },
+    {
+      "text": "show me my upcoming submitted leaves",
+      "intent": "ShowMyLeaves",
+      "entities": []
+    },
+    {
+      "text": "show my opted flexible holidays for the month of march",
+      "intent": "ShowMyFlexiLeaves",
+      "entities": []
+    },
+    {
+      "text": "show my submitted leave request",
+      "intent": "ShowMyLeaves",
+      "entities": []
+    },
+    {
+      "text": "show my upcoming submitted requests",
+      "intent": "ShowMyLeaves",
+      "entities": []
+    },
+    {
+      "text": "show upcoming flexi holidays",
+      "intent": "ShowAllFlexiHolidays",
+      "entities": []
+    },
+    {
+      "text": "show upcoming flexi holidays for march",
+      "intent": "ShowAllFlexiHolidays",
+      "entities": []
+    },
+    {
+      "text": "show upcoming flexi holidays list",
+      "intent": "ShowAllFlexiHolidays",
+      "entities": []
+    },
+    {
+      "text": "show upcoming flexible holidays",
+      "intent": "ShowAllFlexiHolidays",
+      "entities": []
+    },
+    {
+      "text": "show upcoming flexible holidays for march",
+      "intent": "ShowAllFlexiHolidays",
+      "entities": []
+    },
+    {
+      "text": "show upcoming flexible holidays list",
+      "intent": "ShowAllFlexiHolidays",
+      "entities": []
+    },
+    {
+      "text": "show upcoming holidays",
+      "intent": "ShowAllHolidays",
+      "entities": []
+    },
+    {
+      "text": "show upcoming holidays for march",
+      "intent": "ShowAllHolidays",
+      "entities": []
+    },
+    {
+      "text": "stop",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "submit leave request for march",
+      "intent": "LeaveRequest",
+      "entities": []
+    },
+    {
+      "text": "take a leave for march",
+      "intent": "LeaveRequest",
+      "entities": []
+    },
+    {
+      "text": "terminate",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "upcoming flexi holidays",
+      "intent": "ShowAllFlexiHolidays",
+      "entities": []
+    },
+    {
+      "text": "upcoming flexi holidays for march",
+      "intent": "ShowAllFlexiHolidays",
+      "entities": []
+    },
+    {
+      "text": "upcoming flexi holidays list",
+      "intent": "ShowAllFlexiHolidays",
+      "entities": []
+    },
+    {
+      "text": "upcoming flexible holidays",
+      "intent": "ShowAllFlexiHolidays",
+      "entities": []
+    },
+    {
+      "text": "upcoming flexible holidays for march",
+      "intent": "ShowAllFlexiHolidays",
+      "entities": []
+    },
+    {
+      "text": "upcoming flexible holidays list",
+      "intent": "ShowAllFlexiHolidays",
+      "entities": []
+    },
+    {
+      "text": "upcoming holiday list",
+      "intent": "ShowAllHolidays",
+      "entities": []
+    },
+    {
+      "text": "upcoming holidays for march",
+      "intent": "ShowAllHolidays",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
